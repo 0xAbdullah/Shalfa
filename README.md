@@ -12,3 +12,5 @@ pip3 install requirements.txt
 ```python
 python3 shalfa.py -u https://example.com
 ```
+# Screencast
+![](https://github.com/0xAbdullah/Shalfa/blob/main/Screencast.gif)
