@@ -76,3 +76,4 @@ def generate(domain, url, cookies):
 
     resultFile.write(template)
     resultFile.close()
+    print('# Check Result folder.')
