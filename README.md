@@ -1,5 +1,8 @@
 # Shalfa 0.1
-Shalfa is web scanner
+Shalfa is a simple tool that helps you with:
+- Extract URLs.
+- Find subdomains.
+- Find some headers misconfiguration.
 
 # Installation
 ```
@@ -14,3 +17,10 @@ python3 shalfa.py -u https://example.com
 ```
 # Screencast
 ![](https://github.com/0xAbdullah/Shalfa/blob/main/Screencast.gif)
+
+# ToDo
+```
+XSS scanner
+SSRF scanner
+CRLF scanner
+```
