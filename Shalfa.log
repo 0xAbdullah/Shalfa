@@ -1,0 +1,7 @@
+Shalfa 0.1
+
+Extract URLs.
+  From website and Wayback Machine.
+Find subdomains.
+Find some headers misconfiguration.
+All results will be saved in HTML file.
