@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import argparse, socket, sys
-from scripts import header, extractLinks, subdomain, vulnScanner, webArchive, result
+from scripts import header, extractLinks, subdomain, webArchive, result
 import warnings; warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
 
@@ -35,7 +35,7 @@ def main():
         webArchive.WayBackMachine(url, domain)
         subdomain.getSubdomains(domain)
         result.generate(domain, url, cookies)
-        # Attack mod // Coming soon.
+        # Attack mood // Coming soon.
         #vulnScanner.gitRepo(url, cookies)
         #vulnScanner.xssScanner(domain)
         #vulnScanner.CRLFInjectionScanner(domain)
