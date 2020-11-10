@@ -4,7 +4,7 @@ Shalfa is a simple tool that helps you with:
    - From website and Wayback Machine
 - Find subdomains.
 - Find some headers misconfiguration.
-- `All results will be saved in HTML file`
+- `All results will be save in HTML file`
 
 # Installation
 ```
